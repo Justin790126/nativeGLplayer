@@ -1,0 +1,89 @@
+.current-time {
+    color: white;
+    display: inline-block;
+    font-size: 12px;
+    left: 50px;
+    position: relative;
+}
+
+div {
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.player-container:hover .player-control {
+    display: block;
+}
+
+.play-button {
+    border-bottom: 8px solid transparent;
+    border-left: 12px solid #FFFFFF;
+    border-top: 8px solid transparent;
+    display: inline-block;
+    height: 0;
+    left: 20px;
+    position: relative;
+    width: 0;
+}
+
+.pause-button {
+    border-left: 4px solid #FFFFFF;
+    border-right: 4px solid #FFFFFF;
+    display: inline-block;
+    height: 16px;
+    left: 20px;
+    position: relative;
+    top: 5px;
+    width: 4px;
+}
+
+.player-control {
+    background: linear-gradient(rgba(7, 20, 30, 0.2), rgba(7, 20, 30, 1.0));
+    display: none;
+}
+
+.progress-container {
+    background-color: rgb(175, 178, 181);
+    position: relative;
+    width: 100%;
+}
+
+.preload-bar {
+    background-color: rgb(113, 115, 117);
+    height: 100%;
+    position: absolute;
+    width: 0;
+}
+
+.progress-bar {
+    background-color: #a394f6;
+    height: 100%;
+    position: absolute;
+    width: 0%;
+}
+
+.volume-button-container {
+    position: relative;
+    right: 20px;
+    float: right;
+}
+
+.volume-container {
+    background-color: rgb(175, 178, 181);
+    float: right;
+    height: 5px;
+    position: relative;
+    right: 10px;
+    top: 10px;
+    width: 50px;
+}
+
+.volume-bar {
+    background-color: #a394f6;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
